@@ -31,18 +31,28 @@ const Contact = () => {
     return () => observer.disconnect();
   }, []);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setError('');
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      await axios.post(`${API}/contact`, {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message
+      });
+      
       setSubmitted(true);
       setFormData({ name: '', email: '', message: '' });
       
       setTimeout(() => setSubmitted(false), 3000);
-    }, 1500);
+    } catch (err) {
+      console.error('Contact form error:', err);
+      setError('Failed to send message. Please try again or email directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e) => {
