@@ -147,7 +147,7 @@ export const achievements = [
 
 export const stats = [
   { value: "12+", label: "Projects Built" },
-  { value: "2+", label: "Years Experience" },
+  { value: "7+", label: "Hackathons Participated" },
   { value: "5+", label: "Tech Stacks" },
-  { value: "200K+", label: "Flipkart GRiD Competitors" }
+  { value: "80+", label: "Students Mentored" }
 ];
