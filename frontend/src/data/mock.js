@@ -148,6 +148,5 @@ export const achievements = [
 export const stats = [
   { value: "12+", label: "Projects Built" },
   { value: "7+", label: "Hackathons Participated" },
-  { value: "5+", label: "Tech Stacks" },
-  { value: "80+", label: "Students Mentored" }
+  { value: "5+", label: "Tech Stacks" }
 ];
