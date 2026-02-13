@@ -173,8 +173,8 @@ const Hero = () => {
               </div>
               
               <div className="absolute -right-2 lg:-right-4 bottom-1/4 bg-[#151515] border border-white/10 rounded-2xl p-3 shadow-2xl animate-float" style={{ animationDelay: '1s' }}>
-                <div className="text-xl font-bold text-orange-400">{stats[2].value}</div>
-                <div className="text-xs text-gray-500">{stats[2].label}</div>
+                <div className="text-xl font-bold text-orange-400">{stats[1].value}</div>
+                <div className="text-xs text-gray-500">{stats[1].label}</div>
               </div>
             </div>
           </div>
