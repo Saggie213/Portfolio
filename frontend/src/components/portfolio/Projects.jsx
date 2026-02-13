@@ -54,7 +54,7 @@ const Projects = () => {
             Projects & Research
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto">
-            From cutting-edge cybersecurity research to scalable web applications,
+            From cutting-edge ML research to scalable web applications,
             here's a showcase of my recent work.
           </p>
         </div>
