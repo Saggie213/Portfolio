@@ -26,20 +26,38 @@ export const projects = [
     title: "Federated Cyber-attack Detection System",
     category: "Research Project",
     period: "Jan 2025 – July 2025",
-    description: "End-to-end federated cyber-attack detection system using dataset-specific autoencoders and latent-space alignment for heterogeneous network intrusion data.",
+    description: "End-to-end federated detection system using dataset-specific autoencoders and latent-space alignment for heterogeneous network intrusion data.",
     highlights: [
       "Built dataset-specific autoencoders with latent-space alignment",
       "Engineered SMOTETomek resampling & federated training pipelines",
       "Developed global encoder + classification head in PyTorch",
       "Achieved strong cross-dataset generalization"
     ],
-    techStack: ["Python", "PyTorch", "Federated Learning", "Deep Learning", "Cybersecurity"],
+    techStack: ["Python", "PyTorch", "Federated Learning", "Deep Learning"],
     bgColor: "#14b8a6",
     featured: true,
     type: "research"
   },
   {
     id: 2,
+    title: "EcoScore",
+    category: "Full-Stack Application",
+    description: "Sustainable Impact Tracking Platform with AI-powered carbon footprint calculator, ESG scoring, smart packaging suggestions, and product recommendations.",
+    highlights: [
+      "AI-powered carbon footprint estimation using Gradient Boosting",
+      "ESG Score Analysis with TF-IDF text analysis",
+      "ML-based packaging recommendations for sustainability",
+      "Collaborative filtering for sustainable product discovery"
+    ],
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Python", "scikit-learn", "Framer Motion"],
+    bgColor: "#10b981",
+    liveLink: "#",
+    githubLink: "https://github.com/Saggie213",
+    featured: true,
+    type: "web"
+  },
+  {
+    id: 3,
     title: "Price Alert",
     category: "Full-Stack Application",
     description: "Real-time price-tracking platform with automated alerts on price drops, featuring Amazon product search and email notifications.",
@@ -57,7 +75,7 @@ export const projects = [
     type: "web"
   },
   {
-    id: 3,
+    id: 4,
     title: "Expense Ease",
     category: "Web Application",
     description: "Cross-functional expense tracker with category-based tracking, interactive visual summaries, and offline access capabilities.",
