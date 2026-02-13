@@ -211,6 +211,10 @@ const Contact = () => {
                   </>
                 )}
               </button>
+              
+              {error && (
+                <p className="text-red-400 text-sm text-center mt-3">{error}</p>
+              )}
             </form>
           </div>
         </div>
