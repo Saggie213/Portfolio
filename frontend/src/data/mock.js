@@ -146,8 +146,8 @@ export const achievements = [
 ];
 
 export const stats = [
-  { value: "3+", label: "Projects Built" },
-  { value: "80+", label: "Students Mentored" },
-  { value: "7.8", label: "CGPA" },
-  { value: "188th", label: "CodeChef Rank" }
+  { value: "12+", label: "Projects Built" },
+  { value: "2+", label: "Years Experience" },
+  { value: "5+", label: "Tech Stacks" },
+  { value: "200K+", label: "Flipkart GRiD Competitors" }
 ];
