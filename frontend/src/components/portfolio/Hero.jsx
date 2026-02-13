@@ -150,7 +150,7 @@ const Hero = () => {
           {/* Right Content - Photo & Stats */}
           <div className={`relative transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             {/* Photo Container */}
-            <div className="relative">
+            <div className="relative max-w-sm mx-auto lg:max-w-md">
               {/* Decorative Ring */}
               <div className="absolute inset-0 bg-gradient-to-br from-teal-500 via-cyan-500 to-purple-500 rounded-3xl rotate-6 opacity-20 blur-sm" />
               <div className="absolute inset-0 bg-gradient-to-br from-teal-500 via-cyan-500 to-purple-500 rounded-3xl -rotate-3 opacity-30" />
@@ -167,14 +167,14 @@ const Hero = () => {
               </div>
 
               {/* Floating Stats Cards */}
-              <div className="absolute -left-8 top-1/4 bg-[#151515] border border-white/10 rounded-2xl p-4 shadow-2xl animate-float">
-                <div className="text-2xl font-bold text-teal-400">{stats[1].value}</div>
-                <div className="text-xs text-gray-500">{stats[1].label}</div>
+              <div className="absolute -left-4 lg:-left-8 top-1/4 bg-[#151515] border border-white/10 rounded-2xl p-3 shadow-2xl animate-float">
+                <div className="text-xl font-bold text-teal-400">{stats[0].value}</div>
+                <div className="text-xs text-gray-500">{stats[0].label}</div>
               </div>
               
-              <div className="absolute -right-4 bottom-1/4 bg-[#151515] border border-white/10 rounded-2xl p-4 shadow-2xl animate-float" style={{ animationDelay: '1s' }}>
-                <div className="text-2xl font-bold text-orange-400">{stats[3].value}</div>
-                <div className="text-xs text-gray-500">{stats[3].label}</div>
+              <div className="absolute -right-2 lg:-right-4 bottom-1/4 bg-[#151515] border border-white/10 rounded-2xl p-3 shadow-2xl animate-float" style={{ animationDelay: '1s' }}>
+                <div className="text-xl font-bold text-orange-400">{stats[2].value}</div>
+                <div className="text-xs text-gray-500">{stats[2].label}</div>
               </div>
             </div>
           </div>
