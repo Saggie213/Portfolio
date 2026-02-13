@@ -9,7 +9,7 @@ export const personalInfo = {
   location: "Kolkata, West Bengal, India",
   photo: "https://customer-assets.emergentagent.com/job_portfolio-hub-1098/artifacts/coqpdwbg_photo_2026-02-13_15-50-02.jpg",
   resumeUrl: "#",
-  bio: "I'm a passionate Computer Science student at BIT Mesra with a deep interest in cybersecurity research, machine learning, and full-stack web development. Currently working on federated learning systems for cyber-attack detection while building scalable web applications that make a real impact."
+  bio: "I'm a passionate Computer Science student at BIT Mesra with a deep interest in machine learning and full-stack web development. Currently working on federated learning systems while building scalable web applications that make a real impact."
 };
 
 export const socialLinks = [
